@@ -4,7 +4,7 @@
 "unitType": "Air Helicopter",
 "range": 1,
 "movement": 3,
-"strength": 90,
+"strength": 70,
 "rangedStrength": 55,
 "cost": 450,
 "requiredTech": "Plastics",
@@ -42,7 +42,7 @@
 "requiredTech": "Mobile Tactics",
 "uniques": ["Can carry [2] [Air] units",
 		"Can carry [2] [Air Missile] units",
-		"Never appears as a Barbarian unit","Consumes [1] [Secret Project]","Consumes [1] [Uranium]"],
+		"Never appears as a Barbarian unit","Consumes [1] [Secret Project]","Consumes [2] [Uranium]"],
 },
 
 
