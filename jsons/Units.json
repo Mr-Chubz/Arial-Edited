@@ -19,8 +19,8 @@
 {
 "name": "Support Helicopter",
 "unitType": "Air Helicopter",
-"movement": 4,
-"strength": 70,
+"movement": 6,
+"strength": 50,
 "cost": 375,
 "requiredTech": "Telecommunications",
 "uniques": ["Cannot attack",
@@ -28,27 +28,28 @@
 		"All tiles cost 1 movement",
 		"All adjacent units heal [+20] HP when healing",
 		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"]
+	"requiredResource": "Fuel"
 },
 
 {
 "name": "Land Carrier",
 "unitType": "Land Carrier",
 "range": 2,
-"movement": 6,
+"movement": 1,
 "strength": 70,
 "rangedStrength": 90,
 "cost": 450,
 "requiredTech": "Mobile Tactics",
 "uniques": ["Can carry [2] [Air] units",
 		"Can carry [2] [Air Missile] units",
-		"Never appears as a Barbarian unit"],
+		"Never appears as a Barbarian unit","Consumes [1] [Secret Project]","Consumes [1] [Uranium]"],
 },
 
 
 {
 "name": "Naval Helicopter",
 "unitType": "Air Helicopter",
-"movement": 4,
+"movement": 6,
 "strength": 75,
 "cost": 450,
 "requiredTech": "Robotics",
@@ -64,7 +65,7 @@
 {
 "name": "Heavy Duty Helicopter",
 "unitType": "Helicopter",
-"movement": 3,
+"movement": 5,
 "strength": 85,
 "interceptRange": 1,
 "range": 1,
@@ -78,6 +79,7 @@
 		"No defensive terrain bonus",
 		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
 "promotions": ["Indirect Fire"]
+	"requiredResource": "Fuel"
 },
 
 {
@@ -106,8 +108,6 @@
 "cost": 400,
 "requiredTech": "Advanced Ballistics",
 "requiredResource": "Biohazard Matter",
-"uniques": ["Consumes [1] [Fuel]"]
-},
 
 {
 "name": "Napalm Missile",
@@ -119,7 +119,7 @@
 "cost": 500,
 "requiredTech": "Advanced Ballistics",
 "uniques": ["Blast radius [1]",
-		"Consumes [2] [Fuel]",
+		"Consumes [2] [Biohazard Matter]",
 		"Nuclear weapon of Strength [1]"]
 }
 ]
