@@ -1,26 +1,24 @@
 [
 {
 "name": "Mothership",
-"unitType": "Air Base",
-"range": 3,
-"movement": 4,
+"unitType": "Air Helicopter",
+"range": 1,
+"movement": 3,
 "strength": 90,
-"rangedStrength": 70,
+"rangedStrength": 55,
 "cost": 450,
 "requiredTech": "Plastics",
-"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
-		"Can carry [2] [Air] units",
-		"Can carry [4] [Missile] units",
+"uniques": ["Can carry [1] [Air] units",
+		"Can carry [2] [Air Missile] units",
 		"Never appears as a Barbarian unit",
 		"All tiles cost 1 movement",
-		"Can see over obstacles",
-		"Ranged attacks may be performed over obstacles",
-		"[+1] Sight"]
+		"Can see over obstacles", "Ignores zone of control",
+		"[+1] Sight","Consumes [1] [Secret Project]","Consumes [2] [Oil]",]
 },
 
 {
 "name": "Support Helicopter",
-"unitType": "Helicopter",
+"unitType": "Air Helicopter",
 "movement": 4,
 "strength": 70,
 "cost": 375,
@@ -35,51 +33,24 @@
 {
 "name": "Land Carrier",
 "unitType": "Land Carrier",
-"range": 4,
+"range": 2,
 "movement": 6,
 "strength": 70,
-"rangedStrength": 100,
+"rangedStrength": 90,
 "cost": 450,
 "requiredTech": "Mobile Tactics",
-"uniques": ["Can carry [4] [Air] units",
-		"Can carry [2] [Missile] units",
+"uniques": ["Can carry [2] [Air] units",
+		"Can carry [2] [Air Missile] units",
 		"Never appears as a Barbarian unit"],
-"promotions": ["Indirect Fire"]
 },
 
-{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Anti Air",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-},
-
-{
-		"name": "Mobile SAM",
-		"unitType": "Anti Air",
-		"movement": 3,
-		"interceptRange": 2,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "missile"
-},
 
 {
 "name": "Naval Helicopter",
-"unitType": "Helicopter",
+"unitType": "Air Helicopter",
 "movement": 4,
-"strength": 85,
-"cost": 375,
+"strength": 75,
+"cost": 450,
 "requiredTech": "Robotics",
 "uniques": ["Never appears as a Barbarian unit",
 		"All tiles cost 1 movement",
@@ -94,16 +65,15 @@
 "name": "Heavy Duty Helicopter",
 "unitType": "Helicopter",
 "movement": 3,
-"strength": 95,
+"strength": 85,
 "interceptRange": 1,
-"range": 3,
-"rangedStrength": 95,
+"range": 1,
+"rangedStrength": 85,
 "cost": 475,
 "requiredTech": "Advanced Ballistics",
 "uniques": ["Never appears as a Barbarian unit",
 		"All tiles cost 1 movement",
 		"Can carry [1] [Guided Missile] units",
-		"[+50%] strength <vs [Helicopter, Aircraft] units>",
 		"[25]% chance to intercept air attacks",
 		"No defensive terrain bonus",
 		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
@@ -114,7 +84,7 @@
 "name": "Quick Ops Helicopter",
 "unitType": "Helicopter",
 "movement": 5,
-"strength": 75,
+"strength": 65,
 "cost": 325,
 "requiredTech": "Mobile Tactics",
 "uniques": ["Never appears as a Barbarian unit",
@@ -125,26 +95,8 @@
 "requiredResource": "Fuel"
 },
 
-{	
-"name": "Helicopter Gunship",
-"unitType": "Helicopter",
-"movement": 6,
-"strength": 60,
-"cost": 425,
-"requiredTech": "Computers",
-"requiredResource": "Aluminum",
-"uniques": ["[+100]% Strength <vs [Armored] units>",
-		"No defensive terrain bonus",
-		"Can move after attacking",
-		"All tiles cost 1 movement",
-		"Ignores Zone of Control",
-		"Unable to capture cities",
-		"Never appears as a Barbarian unit",
-		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],	
-"attackSound": "machinegun"
-},
 
-/*{
+{
 "name": "Gas Missile",
 "unitType": "Missile",
 "range": 12,
@@ -155,7 +107,7 @@
 "requiredTech": "Advanced Ballistics",
 "requiredResource": "Biohazard Matter",
 "uniques": ["Consumes [1] [Fuel]"]
-},*/
+},
 
 {
 "name": "Napalm Missile",
