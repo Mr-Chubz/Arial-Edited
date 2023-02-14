@@ -108,7 +108,7 @@
 "cost": 400,
 "requiredTech": "Advanced Ballistics",
 "requiredResource": "Biohazard Matter",
-
+},
 {
 "name": "Napalm Missile",
 "unitType": "Missile",
@@ -121,5 +121,5 @@
 "uniques": ["Blast radius [1]",
 		"Consumes [2] [Biohazard Matter]",
 		"Nuclear weapon of Strength [1]"]
-}
+},
 ]
