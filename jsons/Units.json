@@ -13,7 +13,7 @@
 		"Never appears as a Barbarian unit",
 		"All tiles cost 1 movement",
 		"Can see over obstacles", "Ignores zone of control",
-		"[+1] Sight","Consumes [1] [Secret Project]","Consumes [2] [Oil]"]
+		"[+1] Sight","Consumes [1] [Secret Project]","Consumes [1] [Oil]","Consumes [1] [Aluminium]"]
 },
 
 {
@@ -24,10 +24,9 @@
 "cost": 375,
 "requiredTech": "Telecommunications",
 "uniques": ["Cannot attack",
-		"Never appears as a Barbarian unit",
+		"Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
-		"All adjacent units heal [+20] HP when healing",
-		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"]
+		"All adjacent units heal [+20] HP when healing",]
 	"requiredResource": "Fuel"
 },
 
@@ -53,11 +52,10 @@
 "strength": 75,
 "cost": 450,
 "requiredTech": "Robotics",
-"uniques": ["Never appears as a Barbarian unit",
+"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"[+40%] strength <vs [Water] units>",
-		"Defense bonus when embarked",
-		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
+		"Defense bonus when embarked"],
 "promotions": ["Amphibious"],
 "requiredResource": "Fuel"
 },
@@ -72,12 +70,11 @@
 "rangedStrength": 85,
 "cost": 475,
 "requiredTech": "Advanced Ballistics",
-"uniques": ["Never appears as a Barbarian unit",
+"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"Can carry [1] [Guided Missile] units",
 		"[25]% chance to intercept air attacks",
-		"No defensive terrain bonus",
-		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
+		"No defensive terrain bonus"],
 "promotions": ["Indirect Fire"]
 	"requiredResource": "Fuel"
 },
@@ -89,18 +86,17 @@
 "strength": 65,
 "cost": 325,
 "requiredTech": "Mobile Tactics",
-"uniques": ["Never appears as a Barbarian unit",
+"uniques": ["Never appears as a Barbarian unit", "No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"Can move after attacking",
-		"[+50]% Strength <when attacking>",
-		"[+50]% Strength <in [Helicopter Base] tiles> <when defending>"],
+		"[+50]% Strength <when attacking>"],
 "requiredResource": "Fuel"
 },
 
 
 {
 "name": "Gas Missile",
-"unitType": "Missile",
+"unitType": "Air Missile",
 "range": 12,
 "movement": 1,
 "strength": 150,
@@ -111,7 +107,7 @@
 },
 {
 "name": "Napalm Missile",
-"unitType": "Missile",
+"unitType": "Air Missile",
 "range": 8,
 "movement": 1,
 "strength": 200,
