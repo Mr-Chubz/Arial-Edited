@@ -2,18 +2,18 @@
 {
 "name": "Mothership",
 "unitType": "Air Helicopter",
-"range": 1,
+"range": 2,
 "movement": 3,
-"strength": 70,
-"rangedStrength": 55,
-"cost": 450,
+"strength": 80,
+"rangedStrength": 70,
+"cost": 375,
 "requiredTech": "Plastics",
 "uniques": ["Can carry [1] [Air] units",
 		"Can carry [2] [Air Missile] units",
 		"Never appears as a Barbarian unit",
 		"All tiles cost 1 movement",
 		"Can see over obstacles", "Ignores zone of control",
-		"[+1] Sight","Consumes [1] [Secret Project]","Consumes [1] [Oil]","Consumes [1] [Aluminum]"]
+		"[+1] Sight","Consumes [1] [Secret Project]","Consumes [2] [Fuel]"],
 },
 
 {
@@ -41,7 +41,7 @@
 "requiredTech": "Mobile Tactics",
 "uniques": ["Can carry [2] [Air] units",
 		"Can carry [2] [Air Missile] units",
-		"Never appears as a Barbarian unit","Consumes [1] [Secret Project]","Consumes [2] [Uranium]"],
+		"Never appears as a Barbarian unit","Consumes [1] [Secret Project]","Consumes [1] [Uranium]"],
 },
 
 
@@ -82,7 +82,7 @@
 {
 "name": "Quick Ops Helicopter",
 "unitType": "Helicopter",
-"movement": 5,
+"movement": 6,
 "strength": 65,
 "cost": 325,
 "requiredTech": "Mobile Tactics",
@@ -92,7 +92,37 @@
 		"[+50]% Strength <when attacking>"],
 "requiredResource": "Fuel"
 },
-
+{
+"name": "Chemical Artillery",
+"unitType": "Siege Ranged",
+"movement": 2,
+"strength": 20,
+"rangedStrength": 35,
+"range": 3,
+"cost": 320,
+"requiredTech": "Dynamite",
+"requiredResource":"Biohazard Matter",
+"upgradesTo": "Napalm Artillery",
+"obsoleteTech": "Advanced Ballistics",
+"uniques": ["[+140]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-80]% Strength <vs [Air Helicopter] units>","[-40]% Strength <vs [Water] units>","[-40]% Strength <vs [Heavy Cavalry] units>", "[-40]% Strength <vs [Light Cavalry] units>", "[-40]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[-40]% Strength <vs [Counter Cavalry] units>",
+	"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+"promotions": ["Indirect Fire"],
+"attackSound": "artillery"
+},
+{
+"name": "Napalm Artillery",
+"unitType": "Siege Ranged",
+"movement": 2,
+"strength": 45,
+"rangedStrength": 75,
+"range": 3,
+"cost": 475,
+"requiredTech": "Advanced Ballistics",
+"requiredResource": "Aluminum",
+"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Biohazard Matter]","[-30]% Strength <vs [Air Helicopter] units>","[-30]% Strength <vs [Water] units>","[-30]% Strength <vs [Heavy Cavalry] units>", "[-30]% Strength <vs [Light Cavalry] units>", "[-30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[-30]% Strength <vs [Counter Cavalry] units>"],
+"promotions": ["Indirect Fire"],
+"attackSound": "artillery"
+	},
 
 {
 "name": "Gas Missile",
@@ -118,4 +148,32 @@
 		"Consumes [2] [Biohazard Matter]",
 		"Nuclear weapon of Strength [1]"]
 },
+{
+"name": "Advanced Fighter",
+"unitType": "Air Close Air Support",
+"movement": 1,
+"strength": 72,
+"rangedStrength": 84,
+"range": 12,
+"interceptRange": 12,
+"cost": 425,
+"requiredTech": "Automation",
+"requiredResource": "Fuel",
+"uniques": ["Cyber","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+"attackSound": "jetgun"
+	},
+{
+"name": "Advanced Bomber",
+"unitType": "Air Bomber",
+"movement": 1,
+"strength": 90,
+"rangedStrength": 90,
+"range": 20,
+"cost": 425,
+"requiredTech": "Automation",
+"upgradesTo": "Stealth Bomber",
+"attackSound": "bombing"
+"uniques": ["Cyber","Damage taken from interception reduced by [100]%", "Consumes [1] [Fuel]", "Consumes [1] [Aluminum]"],
+
+	},
 ]
