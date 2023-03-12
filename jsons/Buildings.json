@@ -1,6 +1,6 @@
 [
 {
-"name": "Oil Refinery",
+"name": "Fuel Refinery",
 "production": 3,
 "cost": 300,
 "specialistSlots": {"Engineer": 1},
