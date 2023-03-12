@@ -16,7 +16,7 @@
 "cost": 275,
 "specialistSlots": {"Scientist": 1},
 "maintenance": 2,
-"uniques": ["Provides [2] [Biohazard Matter]","May build [Chemical Artillery] units [in this city]","May build [Napalm Artillery] units [in this city]"],
+"uniques": ["Provides [2] [Biohazard Matter]"],
 "requiredTech": "Biology"
 },
   {
