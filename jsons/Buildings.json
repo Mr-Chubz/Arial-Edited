@@ -24,7 +24,7 @@
 	"cost": 125,
 	"science": 1,
 	"isNationalWonder": true,
-	"uniques": ["Requires a [Hosptital] in all cities","[+15]% Food <in all cities>", "Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
+	"uniques": ["Requires a [Hospital] in all cities","[+15]% Food <in all cities>", "Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
   "requiredTech": "Biology"
 	}
 ]
