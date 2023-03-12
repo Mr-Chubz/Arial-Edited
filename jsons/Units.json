@@ -105,7 +105,7 @@
 "upgradesTo": "Napalm Artillery",
 "obsoleteTech": "Advanced Ballistics",
 "uniques": ["[+140]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-80]% Strength <vs [Air Helicopter] units>","[-40]% Strength <vs [Water] units>","[-40]% Strength <vs [Heavy Cavalry] units>", "[-40]% Strength <vs [Light Cavalry] units>", "[-40]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[-40]% Strength <vs [Counter Cavalry] units>",
-	"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+	"Must set up to ranged attack", "Never appears as a Barbarian unit", "Unavailable in cities without [Chemical Weapons Lab]"],
 "promotions": ["Indirect Fire"],
 "attackSound": "artillery"
 },
@@ -119,7 +119,7 @@
 "cost": 475,
 "requiredTech": "Advanced Ballistics",
 "requiredResource": "Aluminum",
-"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Biohazard Matter]","[-30]% Strength <vs [Air Helicopter] units>","[-30]% Strength <vs [Water] units>","[-30]% Strength <vs [Heavy Cavalry] units>", "[-30]% Strength <vs [Light Cavalry] units>", "[-30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[-30]% Strength <vs [Counter Cavalry] units>"],
+"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Biohazard Matter]","[-30]% Strength <vs [Air Helicopter] units>","[-30]% Strength <vs [Water] units>","[-30]% Strength <vs [Heavy Cavalry] units>", "[-30]% Strength <vs [Light Cavalry] units>", "[-30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[-30]% Strength <vs [Counter Cavalry] units>","Unavailable in cities without [Chemical Weapons Lab]"],
 "promotions": ["Indirect Fire"],
 "attackSound": "artillery"
 	},
