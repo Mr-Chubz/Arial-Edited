@@ -26,7 +26,7 @@
 "isNationalWonder": true,
 "uniques": ["Requires a [Hospital] in all cities","[+15]% Food <in all cities>", "Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
 "requiredTech": "Biology"
-	}
+	},
 {
 "name": "Food Processing Plant",
 "production": 2,
