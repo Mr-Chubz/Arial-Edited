@@ -3,7 +3,7 @@
 "name": "Mothership",
 "unitType": "Air Helicopter",
 "range": 2,
-"movement": 3,
+"movement": 4,
 "strength": 80,
 "rangedStrength": 70,
 "cost": 375,
